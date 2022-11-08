@@ -1,0 +1,14 @@
+.inner-container {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e1e1e1;
+  margin: 0;
+}
+
+.logo {
+  height: 65px;
+  width: auto;
+}
+
+.container {
+  border-bottom: 1px solid #e1e1e1;
+}

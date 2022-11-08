@@ -1,0 +1,33 @@
+nav ul {
+  padding: 0px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.mainmenu-wrapper {
+  justify-content: center;
+}
+
+.mainmenu-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-items {
+  margin: 0px 10px;
+  font-size: 13px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+.menu-items.active,
+.menu-items:hover,
+.menu-items.active a,
+.menu-items:hover a {
+  background-color: #404258;
+  color: white;
+  transition: 0.5s;
+}
