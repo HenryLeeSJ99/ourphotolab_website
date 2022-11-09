@@ -7,7 +7,7 @@ export default function Slideshow() {
     "./images/DSC01004.jpg",
     "./images/DSC07621.jpg",
     "./images/DSC07667.jpg",
-    "./images/DSC09214.jpg"
+    "./images/DSC09214.jpg",
   ];
   const delay = 5000;
 
@@ -49,7 +49,6 @@ export default function Slideshow() {
 
         ))}
       </div>
-
       <div className="slideshowDots">
         {imgs.map((_, idx) => (
           <div

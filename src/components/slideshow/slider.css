@@ -24,12 +24,15 @@
   max-height: calc(100vh - 101px);
   min-height: calc(100vh - 101px);
   box-shadow: 0px 10px 85px 15px rgba(130,122,130,1);
+
 }
 
 /* Buttons */
 
 .slideshowDots {
   text-align: center;
+  position: relative;
+  bottom: 50px;
 }
 
 .slideshowDot {
